@@ -101,7 +101,7 @@ portfolio-website
 
 ### 1️⃣ Clone the Repository
 
-git clone https://raushan1107.github.io/raushanranjan.git
+git clone https://github.com/raushan1107/raushanranjan.git
 
 ### 2️⃣ Open the Folder
 
