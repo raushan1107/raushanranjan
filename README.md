@@ -7,10 +7,7 @@ This portfolio highlights **Azure, Power Platform, .NET, AI, and enterprise trai
 ---
 
 # 🚀 Live Preview
-
-If deployed (Azure / GitHub Pages):
-
-https://your-live-url.com
+https://raushan1107.github.io/raushanranjan/
 
 ---
 
@@ -104,11 +101,11 @@ portfolio-website
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/yourusername/portfolio-website.git
+git clone https://raushan1107.github.io/raushanranjan.git
 
 ### 2️⃣ Open the Folder
 
-cd portfolio-website
+cd raushanranjan
 
 ### 3️⃣ Run the Website
 
