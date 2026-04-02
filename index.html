@@ -1169,6 +1169,38 @@ footer{
       <p class="contact-body will-fade">Whether you need enterprise training, Azure consulting, or want to architect a scalable solution together — let's talk. Available for global engagements.</p>
       <div class="avail will-fade"><div class="avail-dot"></div>Available for Training &amp; Consulting</div>
     </div>
+    <div class="contact-form">
+  <form id="contactForm">
+    
+    <div class="form-row">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Email Address" required>
+    </div>
+
+    <div class="form-row">
+      <input type="text" id="phone" placeholder="Phone / WhatsApp Number">
+      
+      <select id="service">
+        <option value="">Select Requirement</option>
+        <option>Corporate Training</option>
+        <option>Workshop / Webinar</option>
+        <option>Consultancy</option>
+        <option>Project Support</option>
+        <option>Debug / Fix Issue</option>
+        <option>Power BI / Azure Help</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <textarea id="message" placeholder="Describe your requirement..."></textarea>
+
+    <div class="form-buttons">
+      <button type="button" onclick="sendWhatsApp()">WhatsApp</button>
+      <button type="button" onclick="sendEmail()">Email</button>
+    </div>
+
+  </form>
+</div>
     <div class="contact-links will-fade">
       <a href="mailto:raushanr1107@gmail.com" class="c-lnk"><div class="c-ico">✉️</div><div class="c-info"><div class="c-plat">Email</div><div class="c-name">raushanr1107@gmail.com</div></div><span class="c-arrow">→</span></a>
       <a href="https://www.linkedin.com/in/raushanranjan" target="_blank" class="c-lnk"><div class="c-ico">💼</div><div class="c-info"><div class="c-plat">LinkedIn</div><div class="c-name">linkedin.com/in/raushanranjan</div></div><span class="c-arrow">→</span></a>
@@ -1431,6 +1463,40 @@ document.querySelector('.nav-brand').addEventListener('click',e=>{
   e.preventDefault();
   window.scrollTo({top:0,behavior:'smooth'});
 });
+</script>
+  <script>
+function getFormData() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var phone = document.getElementById("phone").value;
+  var service = document.getElementById("service").value;
+  var message = document.getElementById("message").value;
+
+  var text = "Hello Raushan,%0A%0A"
+    + "Name: " + name + "%0A"
+    + "Email: " + email + "%0A"
+    + "Phone: " + phone + "%0A"
+    + "Requirement: " + service + "%0A"
+    + "Message: " + message;
+
+  return text;
+}
+
+function sendWhatsApp() {
+  var text = getFormData();
+  var phoneNumber = "918285862455"; 
+  var url = "https://wa.me/" + phoneNumber + "?text=" + text;
+  window.open(url, "_blank");
+}
+
+function sendEmail() {
+  var text = getFormData();
+  var subject = "Training / Consultancy Requirement";
+  var url = "mailto:raushanr1107@gmail.com"
+            + "?subject=" + subject
+            + "&body=" + text;
+  window.location.href = url;
+}
 </script>
 </body>
 </html>
