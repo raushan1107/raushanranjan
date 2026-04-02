@@ -743,3 +743,48 @@ footer{
   .meta-grid{grid-template-columns:1fr}
   footer{padding:1.5rem;flex-direction:column;align-items:center;text-align:center}
 }
+.contact-form {
+  margin-top: 2rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-family: var(--f-sans);
+  font-size: 14px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form-buttons button {
+  padding: 12px 20px;
+  border: none;
+  background: var(--navy);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-buttons button:hover {
+  background: var(--amber);
+}
