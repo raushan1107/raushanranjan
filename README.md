@@ -1,4 +1,4 @@
-# 🌐 Raushan Ranjan – Portfolio Website
+# Raushan Ranjan – Portfolio Website
 
 A modern **developer & corporate trainer portfolio website** showcasing professional experience, certifications, technical skills, projects, and global training impact.
 
@@ -6,19 +6,21 @@ This portfolio highlights **Azure, Power Platform, .NET, AI, and enterprise trai
 
 ---
 
-# 🚀 Live Preview
-https://raushan1107.github.io/raushanranjan/
+## Live Preview
+
+- **Azure (Primary):** https://raushan-ranjan.azurewebsites.net/
+- **GitHub Pages:** https://raushan1107.github.io/raushanranjan/
 
 ---
 
-# 📌 About the Project
+## About the Project
 
-This portfolio represents the professional journey of **Raushan Ranjan**, a **Microsoft Certified Trainer (MCT)** and **Corporate Trainer at Koenig Solutions** with experience training **2400+ professionals globally** across modern Microsoft technologies.
+This portfolio represents the professional journey of **Raushan Ranjan**, a **Microsoft Certified Trainer (MCT)** and **Iconic Corporate Trainer at Koenig Solutions** with experience training **2900+ professionals globally** across modern Microsoft technologies.
 
 The site is designed to highlight:
 
 - Professional background
-- Certifications
+- Certifications (26+ Microsoft certifications)
 - Enterprise training expertise
 - Technical skillset
 - Real-world projects
@@ -27,146 +29,140 @@ The site is designed to highlight:
 
 ---
 
-# ✨ Features
+## Features
 
-## 🎨 Modern UI Design
-- Clean professional layout
-- Custom typography
-- Advanced color theme system
+### Modern UI Design
+- Clean professional layout with navy + amber color system
+- Custom typography (Fraunces serif + Outfit sans-serif)
+- CSS custom properties (design tokens)
 
-## ⚡ Smooth Animations
-- GSAP animations
+### Smooth Animations
+- GSAP animations with ScrollTrigger
 - Scroll-triggered transitions
 - Interactive hover effects
 
-## 🧠 Interactive UX
+### Interactive UX
 - Custom cursor
-- Scroll progress rail
+- Scroll progress rail with section dots
 - Animated statistics counters
 - Hero particle effects
+- Preloader animation
 
-## 📱 Fully Responsive
+### Fully Responsive
 - Desktop optimized layout
 - Tablet support
 - Mobile responsive design
 
 ---
 
-# 📊 Website Sections
-
-The website includes:
+## Website Sections
 
 - Hero Introduction
 - About Me
 - Certifications
 - Technical Skills
-- Career Timeline
+- Experience / Career Timeline
 - Projects Portfolio
 - Testimonials
-- Contact Links
+- Contact
 
 ---
 
-# 🛠️ Tech Stack
+## Tech Stack
 
 Frontend technologies used:
 
 - HTML5
-- CSS3
+- CSS3 (custom properties, Grid, Flexbox)
 - JavaScript
-- GSAP Animation Library
-- ScrollTrigger
-- Google Fonts
+- GSAP 3.12 Animation Library
+- ScrollTrigger plugin
+- Google Fonts (Fraunces, Outfit)
 
-Additional concepts:
+CI/CD:
 
-- Responsive layout
-- Modern CSS variables
-- Grid & Flexbox
-- Custom UI animations
+- GitHub Actions → Azure App Service (auto-deploy on push to `main`)
 
 ---
 
-# 📂 Project Structure
+## Project Structure
 
-portfolio-website
-│
-├── index.html        # Main portfolio page
-├── assets/           # Images, icons, media (optional)
-├── README.md         # Project documentation
+```
+raushanranjan/
+├── index.html                        # Main portfolio page
+├── site.css                          # Standalone stylesheet (alternate)
+├── favicon.ico                       # Site favicon
+├── raushan.jpg                       # Profile photo
+├── preview.png                       # OG / social preview image
+├── README.md                         # Project documentation
+└── .github/
+    └── workflows/
+        └── main_raushan-ranjan.yml   # Azure deployment pipeline
+```
 
 ---
 
-# ▶️ How to Run the Project
+## How to Run Locally
 
-### 1️⃣ Clone the Repository
+**Clone the repository**
 
+```bash
 git clone https://github.com/raushan1107/raushanranjan.git
-
-### 2️⃣ Open the Folder
-
 cd raushanranjan
+```
 
-### 3️⃣ Run the Website
+**Open in browser**
 
-Simply open:
-
+```
 index.html
-
-in your browser.
+```
 
 No build tools or installations required.
 
 ---
 
-# 🌍 Deployment Options
+## Deployment
 
-You can deploy this portfolio easily using:
+The site is deployed automatically via **GitHub Actions** on every push to `main`.
 
-### Azure App Service
-Recommended if showcasing Azure expertise.
+**Pipeline:** `.github/workflows/main_raushan-ranjan.yml`  
+**Target:** Azure App Service (`raushan-ranjan`)
 
-### GitHub Pages
+To deploy to GitHub Pages instead:
 
-Steps:
-
+```
 Settings → Pages → Deploy from branch → main
-
-### Netlify / Vercel
-Drag and drop deployment supported.
+```
 
 ---
 
-# 📈 Future Improvements
+## Future Improvements
 
 Planned enhancements:
 
 - Blog integration
 - CMS-based content editing
 - Project filtering
-- Dark / Light mode
+- Dark / Light mode toggle
 - Performance optimization
 - SEO improvements
 
 ---
 
-# 🤝 Connect With Me
+## Connect With Me
 
-📧 Email  
-raushanr1107@gmail.com
+**Email:** raushanr1107@gmail.com
 
-💼 LinkedIn  
-https://www.linkedin.com/in/raushanranjan
+**LinkedIn:** https://www.linkedin.com/in/raushanranjan
 
-💻 GitHub  
-https://github.com/raushan1107
+**GitHub:** https://github.com/raushan1107
 
 ---
 
-# 📜 License
+## License
 
 This project is open source and available under the **MIT License**.
 
 ---
 
-⭐ If you like this project, consider **starring the repository**.
+If you like this project, consider starring the repository.
