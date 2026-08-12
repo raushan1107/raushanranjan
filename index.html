@@ -801,6 +801,28 @@ footer{
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Raushan Ranjan",
+  "jobTitle": "Iconic Corporate Trainer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Koenig Solutions Pvt. Ltd.",
+    "url": "https://www.koenig-solutions.com"
+  },
+  "url": "https://raushan-ranjan.azurewebsites.net/",
+  "sameAs": [
+    "https://www.linkedin.com/in/raushanranjan",
+    "https://github.com/raushan1107",
+    "https://rrskillverse.in"
+  ],
+  "knowsAbout": ["Microsoft Azure", "Power BI", ".NET", "Power Platform", "Corporate Training", "AI", "Copilot Studio"],
+  "description": "Microsoft Certified Trainer (MCT) and Iconic Corporate Trainer at Koenig Solutions Pvt. Ltd. RR Skillverse is a free personal learning resource, not a commercial entity."
+}
+</script>
 </head>
 <body>
 
@@ -850,7 +872,7 @@ footer{
     <li><a href="#testi">Reviews</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <a href="mailto:raushanr1107@gmail.com" class="nav-hire"><span>Hire Me</span></a>
+  <a href="#contact" class="nav-hire"><span>Let's Connect</span></a>
 </nav>
 
 <!-- ════════════════════════════════════════
@@ -975,9 +997,7 @@ footer{
         <div class="meta-c will-fade"><div class="meta-lbl">Current Role</div><div class="meta-val meta-live">Microsoft Certified Trainer (MCT)</div></div>
         <div class="meta-c will-fade"><div class="meta-lbl">Developer</div><div class="meta-val">Azure | Power Platform | Dotnet | Qt & QML</div></div>
         <div class="meta-c will-fade"><div class="meta-lbl">Expert</div><div class="meta-val">AI/ML | Agent Developement | Power BI | Copilot Studio</div></div>
-        <div class="meta-c will-fade"><div class="meta-lbl">Founder</div><div class="meta-val">RR Skillverse</div></div>
-         <div class="meta-c will-fade"><div class="meta-lbl">Co-Founder</div><div class="meta-val">The Soft Grid</div></div>
-         <div class="meta-c will-fade"><div class="meta-lbl">Co-Founder</div><div class="meta-val">Govind Boys Hostel and Tiffin Services (Patna Based)</div></div>
+        <div class="meta-c will-fade"><div class="meta-lbl">Personal Project</div><div class="meta-val">RR Skillverse (free learning resource)</div></div>
       </div>
     </div>
   </div>
@@ -1089,8 +1109,8 @@ footer{
         <div class="exp-org">Explore All Ways<br/>Part-time · Co-Founder</div>
       </div>
       <div class="exp-right">
-        <div class="exp-title">Co-Founder &amp; CTO <span class="exp-badge b-active">Active</span></div>
-        <p class="exp-desc">Co-founded and lead the technical direction of a Tour &amp; Travel company. Architected and built the full frontend — manages all web development and IT infrastructure.</p>
+        <div class="exp-title">Technical Co-Founder</div>
+        <p class="exp-desc">Co-founded a family-run Tour &amp; Travel venture and built the initial web frontend. Day-to-day involvement is now limited as full-time training responsibilities at Koenig Solutions take priority.</p>
       </div>
     </div>
     <div class="exp-row will-left">
@@ -1099,8 +1119,8 @@ footer{
         <div class="exp-org">RR Education<br/>Noida · Full-time</div>
       </div>
       <div class="exp-right">
-        <div class="exp-title">Managing Director &amp; Educator</div>
-        <p class="exp-desc">Founded and led RR Education for nearly a decade — taught Physics, Python, Web Development, and Mathematics with personalized, adaptive learning plans.</p>
+        <div class="exp-title">Founder &amp; Educator</div>
+        <p class="exp-desc">Started with one student in 2014 — Physics and Maths tutoring in Noida. Grew to a small local cohort of 20–25 students before the 2020–21 pandemic pause. Closed in Aug 2023 when enterprise training at Koenig Solutions became the full focus.</p>
       </div>
     </div>
     <div class="exp-row will-left">
@@ -1165,9 +1185,9 @@ footer{
   <div class="contact-grid">
     <div>
       <div class="eyebrow dark-ey will-fade">07 — Get In Touch</div>
-      <h2 class="contact-cta-text will-fade">Ready to train,<br/>build, or<br/><em>collaborate?</em></h2>
-      <p class="contact-body will-fade">Whether you need enterprise training, Azure consulting, or want to architect a scalable solution together — let's talk. Available for global engagements.</p>
-      <div class="avail will-fade"><div class="avail-dot"></div>Available for Training &amp; Consulting</div>
+      <h2 class="contact-cta-text will-fade">Let's<br/><em>connect.</em></h2>
+      <p class="contact-body will-fade">Reach out to collaborate, connect professionally, or learn more about my work at Koenig Solutions. For corporate training enquiries, Koenig Solutions handles all bookings globally.</p>
+      <div class="avail will-fade"><div class="avail-dot"></div>Training via Koenig Solutions · Open to Connect</div>
     </div>
     <div class="contact-form">
   <form id="contactForm">
@@ -1181,13 +1201,11 @@ footer{
       <input type="text" id="phone" placeholder="Phone / WhatsApp Number">
       
       <select id="service">
-        <option value="">Select Requirement</option>
-        <option>Corporate Training</option>
-        <option>Workshop / Webinar</option>
-        <option>Consultancy</option>
-        <option>Project Support</option>
-        <option>Debug / Fix Issue</option>
-        <option>Power BI / Azure Help</option>
+        <option value="">Reason for Contact</option>
+        <option>Professional Collaboration</option>
+        <option>Speaking / Guest Session</option>
+        <option>Training Enquiry (via Koenig Solutions)</option>
+        <option>LinkedIn / Networking</option>
         <option>Other</option>
       </select>
     </div>
@@ -1491,7 +1509,7 @@ function sendWhatsApp() {
 
 function sendEmail() {
   var text = getFormData();
-  var subject = "Training / Consultancy Requirement";
+  var subject = "Connecting via raushanranjan.net";
   var url = "mailto:raushanr1107@gmail.com"
             + "?subject=" + subject
             + "&body=" + text;
