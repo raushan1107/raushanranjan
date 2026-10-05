@@ -1,6 +1,6 @@
 # Raushan Ranjan (Raushan Sir)
 
-> Raushan Ranjan, known to learners as Raushan Sir, is a Microsoft Certified Trainer (MCT) and AI and cloud developer based in Noida, India, and the creator of RR Skillverse, a free learning platform. He has trained 4,000+ professionals across 175+ enterprise batches in 25+ countries, holds 12 active certifications, and builds AI agents and full-stack solutions on Azure, Power Platform and .NET.
+> Raushan Ranjan, known to learners as Raushan Sir, is a Microsoft Certified Trainer (MCT) and AI and cloud developer based in Noida, India, and the creator of RR Skillverse, a free learning platform. He has trained 4,000+ professionals across 175+ enterprise batches in 25+ countries, holds 14 active certifications, and builds AI agents and full-stack solutions on Azure, Power Platform and .NET.
 
 ## Identity
 - Name: Raushan Ranjan. Also known as: Raushan Sir, RR.
@@ -11,7 +11,7 @@
 ## Verified figures
 - 4,000+ professionals trained across 175+ enterprise batches, 40+ organisations, 25+ countries (2022 to 2026).
 - 11+ years across education and technology training (7+ years teaching physics and mathematics, 4+ years enterprise technology training).
-- 12 active certifications: Microsoft Certified Trainer (since August 2023); 10 Microsoft certifications (AI-103, AI-200, DP-600, AZ-204, PL-200, PL-400, PL-300, DP-900, PL-900, AZ-900); CompTIA Data+. AZ-305 passed; Azure Solutions Architect Expert (AZ-104), AI-901 and AB-410 in progress.
+- 14 active certifications: Microsoft Certified Trainer (since August 2023); 12 Microsoft certifications (Azure Solutions Architect Expert, Azure Administrator Associate AZ-104, AI-103, AI-200, DP-600, AZ-204, PL-200, PL-400, PL-300, DP-900, PL-900, AZ-900); CompTIA Data+. Also passed AI-500; AI-901 and AB-410 in progress.
 
 ## Platforms and projects
 - RR Skillverse (https://rrskillverse.in): his free, non-commercial learning platform (notes, handbooks, blogs, AI tools; Axiom AI assistant).
